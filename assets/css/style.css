@@ -1,0 +1,165 @@
+/*parte de ester e talison*/
+.background {
+    background-image: url("../img/background 2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 466px;
+    height: 960px; 
+}
+.background .logo {
+    width: 198.528px;
+    height: 120px; 
+    display: flex;
+}
+.background .web-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.login h1 {
+    color: #307FE2;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+.login .line {
+    width: 168px;
+    height: 4px;
+    border-radius: 100px;
+    background: #307FE2;
+    margin-top: 22px;
+}
+.login p {
+    color: #333;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    padding: 0;
+
+}
+.background .login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 110px;
+}
+.login .acesso {
+    padding-left: 10px;
+}
+
+/*parte de flavia*/
+.col-4 .login {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-top: 275px;
+}
+.col-4 form {
+    display: flex;
+    flex-direction: column;
+}
+.col-4 .login form input[type=text] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--Gray-4, #BDBDBD);
+    color: var(--Gray-3, #828282);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.col-4 .login form label {
+    color: #051D33;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+.col-4 .login-senha .senha-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.col-4 .login-senha .senha-div input[type=text] {
+    position: relative;
+}
+.col-4 .login-senha .senha-div .mostrar-senha {
+    right: 0;
+    margin-right: 10px;
+    position: absolute;
+    padding: 8px;
+    margin-top: 0px;
+}
+.col-4 .login-button input[type=submit] {
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: #307FE2;
+    border: none;
+    color: var(--White, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+}
+.col-4 .nsei {
+    display: flex;
+    justify-content: space-between;
+}
+.col-4 .nsei small {
+    color: #4F4F4F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.col-4 .nsei small a {
+    color: #307FE2;
+    font-weight: 700;
+}
+.col-4 .nsei a {
+    color: #307FE2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*TELA 2*/
+
+.tela-2 .text h1 {
+    color: var(--Primary-Black, #1D1D1D);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--Fuschia-60, #FCDDEC);
+}
+.tela-2 .text p {
+    color: var(--Gray-1, #333);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    max-width: 400px;;
+    padding: 0;
+    margin-top: 16px;
+}
+.tela-2 .input {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+form {
+    margin: 0;
+}
