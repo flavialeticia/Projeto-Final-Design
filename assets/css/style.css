@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 466px;
-    height: 710px; 
+    height: 900px; 
 }
 .background .logo {
     width: 198.528px;
@@ -28,12 +28,16 @@
     height: 4px;
     border-radius: 100px;
     background: #307FE2;
+    margin-top: 22px;
 }
 .login p {
     color: #333;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
+    margin-top: 8px;
+    padding: 0;
+
 }
 .background .login {
     display: flex;
@@ -50,6 +54,7 @@
     display: flex;
     flex-direction: column;
     gap: 22px;
+    padding-top: 195px;
 }
 .col-4 form {
     display: flex;
